@@ -23,7 +23,7 @@ class AddContact extends React.Component {
     return (
       <>
         <div className="ui main add_contact">
-          <h2 className="text-center py-3 text-primary">Add Contact</h2>
+          <h2 className="text-center py-3 text-primary">Add a Contact here</h2>
 
           <form className="ui form" onSubmit={this.submitHandler}>
             <div className="field ">
