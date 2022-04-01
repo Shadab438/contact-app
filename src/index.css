@@ -1,13 +1,48 @@
 body {
+  top: 5rem;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.home__page,
+.add_contact,
+.contact_details,
+.contact__delete {
+  margin-top: 5rem;
+}
+.list .item .content .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .header .trash {
+  font-size: 1.5rem;
+  color: red !important;
+  cursor: pointer;
+}
+.icon_handler .edit {
+  color: blue !important;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.contact__card {
+  cursor: pointer;
+}
+.edit__btn {
+  border: 1px solid !important;
+  margin-right: 2rem;
+  justify-self: flex-end;
+  display: block;
+}
+a {
+  text-decoration: none;
 }
